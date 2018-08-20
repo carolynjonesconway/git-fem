@@ -1,16 +1,20 @@
 # about
 
-`git-fem` is a shell script to make a GitHub-hosted git repo match the girl power/nb femme power aesthetic of the rest of your life by renaming your `master` branch to `primary` in your local repo and the upstream on GitHub *and* making `primary` the new default branch on GitHub.
+`git-fem` is a shell script to make a GitHub-hosted git repo match the girl power/nb femme power aesthetic of the rest of your life by renaming your `master` branch to `mistress` in your local repo and the upstream on GitHub *and* making `mistress` the new default branch on GitHub.
 
-> "what is this, some social justice bullshit?" - a man
+
+
+> "what is this, some white feminist bullshit?"
 
 yes
+
+`git-overflow` will instead rename your `master` branch to `primary`.
 
 # installation
 
 ``` bash
-$ git clone https://github.com/ashaindlin/git-fem.git
-$ cd git-fem
+$ git clone https://github.com/carolynjonesconway/git-overflow.git
+$ cd git-overflow
 $ sudo make install
 ```
 
@@ -21,7 +25,7 @@ $ cd existing-git-repo
 $ git branch
   foo    xxxxxx A commit message
 * master xxxxxx Another commit message
-$ git-fem
+$ git-overflow
 # Enter GitHub credentials
 $ git branch
   foo      xxxxxx A commit message
